@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-24T07:18:08.608Z</updated>
+  <updated>2016-07-24T13:16:27.941Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初识python</title>
+    <link href="http://yoursite.com/2016/07/24/python%E5%88%9D%E8%AE%A4%E8%AF%86/"/>
+    <id>http://yoursite.com/2016/07/24/python初认识/</id>
+    <published>2016-07-24T08:38:25.326Z</published>
+    <updated>2016-07-24T13:16:27.941Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于python，在第一次接触后感觉较其它语言，更加通俗易懂，更容易上手，对于小白来说，python可以更加容易的理解语言，它相比其它语言经常使用英文关键字。</p>
+<p>##</p>
+<h3 id="python特点"><a href="#python特点" class="headerlink" title="python特点"></a>python特点</h3><p>python易于学习，代码读起来较为清晰，python拥有一个较为丰富的库，跨平台且兼容性较好。（因使用还不够深入，因此对于其了解还不是太深刻）</p>
+<h3 id="python的标识符"><a href="#python的标识符" class="headerlink" title="python的标识符"></a>python的标识符</h3><p>python的标识符有字母、数字、下划线组成<br>python所有标识符可以包括英文、数字和下划线，但不能以数字开头<br>python标识符区分大小写</p>
+<h3 id="python的行与缩进"><a href="#python的行与缩进" class="headerlink" title="python的行与缩进"></a>python的行与缩进</h3><p>学习python与其他语言最大区别是：python的代码块不使用大括号来控制类，函数以及其他逻辑判断。<br>缩进的空白数量是可变的，但所有代码块语句必须包含相同的缩进空白数量，这个是必须严格执行的。</p>
+<h3 id="python的标准数据类型"><a href="#python的标准数据类型" class="headerlink" title="python的标准数据类型"></a>python的标准数据类型</h3><p>在python中有五个标准的数据类型：Numbers(数字)、String(字符串)、List(列表)、Tuple（元组）、Dictionary（字典）</p>
+<h3 id="python语句学习"><a href="#python语句学习" class="headerlink" title="python语句学习"></a>python语句学习</h3><h4 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h4><p>Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。<br>Python程序语言指定任何非0和非空（null）值为true，0 或者 null为false。<br>if 语句的判断条件可以用&gt;（大于）、&lt;(小于)、==（等于）、&gt;=（大于等于）、&lt;=（小于等于）来表示其关系。<br>当if有多个条件时可使用括号来区分判断的先后顺序，括号中的判断优先执行，此外 and 和 or 的优先级低于&gt;（大于）、&lt;（小于）等判断符号，即大于和小于在没有括号的情况下会比与或要优先判断。</p>
+<h4 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h4><p>python提供了for和while两种循环<br>while循环：执行语句可以是单个语句或语句块。判断条件可以是任何表达式，任何非零、或非空（null）的值均为true，当判断条件假false时，循环结束。此外while 语句时还有另外两个重要的命令 continue，break 来跳过循环，continue 用于跳过该次循环，break 则是用于退出循环<br>for循环：for循环可以遍历任何序列的项目，如一个列表或者一个字符串。</p>
+<p>###总结<br>初学python，只窥其一角，任重而道远，仍需努力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;对于python，在第一次接触后感觉较其它语言，更加通俗易懂，更容易上手，对于小白来说，python可以更加容易的理解语言，它相比其它语言经常使用英文关键字。&lt;/p&gt;
+&lt;p&gt;##&lt;/p&gt;
+&lt;h3 id=&quot;python特点&quot;&gt;&lt;a href=&quot;#python特点&quot; class
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>博客之旅</title>
@@ -29,33 +58,6 @@
     <summary type="html">
     
       &lt;h3 id=&quot;前言碎语&quot;&gt;&lt;a href=&quot;#前言碎语&quot; class=&quot;headerlink&quot; title=&quot;前言碎语&quot;&gt;&lt;/a&gt;前言碎语&lt;/h3&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;ext
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/07/24/hello-world/"/>
-    <id>http://yoursite.com/2016/07/24/hello-world/</id>
-    <published>2016-07-24T00:49:57.749Z</published>
-    <updated>2016-07-24T00:49:57.749Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
     
