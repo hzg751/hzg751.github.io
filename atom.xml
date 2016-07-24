@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>HZG</title>
-  
+  <subtitle>熬过苦B的日子，你就是牛B的人</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-24T01:34:27.460Z</updated>
+  <updated>2016-07-24T07:18:08.608Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>HZXB</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇</title>
-    <link href="http://yoursite.com/2016/07/24/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
-    <id>http://yoursite.com/2016/07/24/第一篇/</id>
-    <published>2016-07-24T01:29:17.000Z</published>
-    <updated>2016-07-24T01:34:27.460Z</updated>
+    <title>博客之旅</title>
+    <link href="http://yoursite.com/2016/07/24/%E5%8D%9A%E5%AE%A2%E4%B9%8B%E6%97%85/"/>
+    <id>http://yoursite.com/2016/07/24/博客之旅/</id>
+    <published>2016-07-24T01:53:46.864Z</published>
+    <updated>2016-07-24T07:18:08.608Z</updated>
     
-    <content type="html"><![CDATA[<p>这是第一篇文档</p>
+    <content type="html"><![CDATA[<h3 id="前言碎语"><a href="#前言碎语" class="headerlink" title="前言碎语"></a>前言碎语</h3><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! 看到这句话，内心还是有点波澜的，在自己打开这满是英文界面的一脸懵，到在小宇哥，松哥的帮助下逐步搞懂实属不易，接下来正式开始自己的博客之旅。</p>
+<h3 id="博客之旅"><a href="#博客之旅" class="headerlink" title="博客之旅"></a>博客之旅</h3><p>第一篇博客还是想回忆下自己的这两年学习生活，只在要写东西时有感而发。14年的夏天自己在惊讶中拿到了大学的录取通知书，收拾好自己的行囊来到了滁州学院，走进了自己的大学世界。尽管自己对大学一无所知，但还是展现出一份无所谓，宠辱不惊的心态独自来到了学校。也许正是这份故作深沉让旁人认为的所谓的成熟使自己完全没有一种大一新生的感觉。大学自己当了班长，两年中因为这个自己牺牲了很多个人的时间，但正是这个使自己学到了很多，让自己有过担当，学会承担，学会与人沟通。使那易怒的脾气渐渐平静。大一的时光在不停的忙碌在班级事务，社团活动，热衷于那一个又一个似乎“必不可缺”的学生会议中。大一的暑假给了自己一个规划，又是好好学习又是怎么样，然后到了大二又很自然的担任了GIS协会的负责人，然后又在忙着班级和社团的事情，感觉自己不是一个gis的学生，有了一种管理类专业的感觉。尽管这与自己所想的大学并不吻合，但自己的选择并不后悔。<br>大二的某个阶段突然感觉自己要加强专业技能的学习，加入了众源聚合的大家庭，在这里让自己的感受到了自己的差劲，对自己下定决心要好好学一些技能，在每一个任务布置下来自己那摸索，抓耳挠腮，最终用老师的话”啃哧啃哧”的完成。转眼间来到了大二的暑假，开始了六个月的实习。第一个任务是在Github上写博客，在搞了几天的情况下终于可以顺利写出来，第一篇博客由此产生，只为记忆。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这是第一篇文档&lt;/p&gt;
-
+      &lt;h3 id=&quot;前言碎语&quot;&gt;&lt;a href=&quot;#前言碎语&quot; class=&quot;headerlink&quot; title=&quot;前言碎语&quot;&gt;&lt;/a&gt;前言碎语&lt;/h3&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;ext
     
     </summary>
     
-    
-      <category term="介绍" scheme="http://yoursite.com/tags/%E4%BB%8B%E7%BB%8D/"/>
     
   </entry>
   
