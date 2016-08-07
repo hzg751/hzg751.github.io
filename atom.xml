@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-31T13:30:44.017Z</updated>
+  <updated>2016-08-07T12:01:07.083Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python爬虫</title>
+    <link href="http://yoursite.com/2016/08/07/python%E7%88%AC%E8%99%AB/"/>
+    <id>http://yoursite.com/2016/08/07/python爬虫/</id>
+    <published>2016-08-07T11:29:03.916Z</published>
+    <updated>2016-08-07T12:01:07.083Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="爬虫简介"><a href="#爬虫简介" class="headerlink" title="爬虫简介"></a>爬虫简介</h3><p>爬虫是一段自动抓取互联网信息的程序，爬虫可以从一个url出发，自动访问所有相关联的url，获取所需要的数据。</p>
+<h3 id="简单的爬虫建构"><a href="#简单的爬虫建构" class="headerlink" title="简单的爬虫建构"></a>简单的爬虫建构</h3><p>爬虫调度端 –&gt;爬虫（url管理器-&gt;网页下载器-&gt;网页解析器-&gt;url管理器（循环））–&gt;价值数据</p>
+<h3 id="url管理器"><a href="#url管理器" class="headerlink" title="url管理器"></a>url管理器</h3><p>管理待抓取的url集合和已抓取的url集合，防止重复抓取和循环抓取。将一个新的url添加到爬取集合中，判断待添加的是否是在容器中。判断是否还有待爬取的url，获取待爬取的url，将待爬取的url移动到已爬取中。</p>
+<p>######实现方式<br>内存： python内存将url集合存储在set()中；关系数据库：创建一个mysql，urls(url,is_crawled);缓存数据库：redis，将url集合存储在set中。</p>
+<h3 id="网页下载器"><a href="#网页下载器" class="headerlink" title="网页下载器"></a>网页下载器</h3><p>将互联网中的url对应的网页下载到本地的工具。<br>python网页下载器：urllib2、requets</p>
+<h3 id="网页解析器"><a href="#网页解析器" class="headerlink" title="网页解析器"></a>网页解析器</h3><p>从网页中提取有价值数据的工具</p>
+<p>######模糊匹配：正则表达式</p>
+<p>######结构化解析：html.parser、beautiful soup、lxml</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;爬虫简介&quot;&gt;&lt;a href=&quot;#爬虫简介&quot; class=&quot;headerlink&quot; title=&quot;爬虫简介&quot;&gt;&lt;/a&gt;爬虫简介&lt;/h3&gt;&lt;p&gt;爬虫是一段自动抓取互联网信息的程序，爬虫可以从一个url出发，自动访问所有相关联的url，获取所需要的数据。&lt;/p&gt;
+&lt;h3
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>python函数</title>
