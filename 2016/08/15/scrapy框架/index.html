@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <title>初识python | HZG</title>
+  <title>Scrapy | HZG</title>
   <meta name="description" content="熬过苦B的日子，你就是牛B的人" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
@@ -148,7 +148,7 @@
                 
                 <div id="nav-container">
                     <div class="post-navbar" style="line-height: 63px;display:none">
-                        <li id="navbar-title"><a href="#">初识python</a></li>
+                        <li id="navbar-title"><a href="#">Scrapy</a></li>
                         <li id="navbar-toc" style="border-left: none">
                             <a style="padding-right: 15px">
                                 <span id="toc-content" >Introduction</span><i class="fa fa-chevron-down" ></i>
@@ -177,34 +177,36 @@
                   <div class="tag-tile">
                       
                   </div>
-                <h1 class="post-title" style="margin: 14px 0;color:#50585D">初识python</h1>
+                <h1 class="post-title" style="margin: 14px 0;color:#50585D">Scrapy</h1>
 
                     <div class="post-meta">
                         Post on<span class="fa fa-clock-o"></span>
-                        <time datetime="2016-07-24T08:38:25.326Z"
-                              itemprop="datePublished">2016-07-24</time>
+                        <time datetime="2016-08-15T11:47:14.917Z"
+                              itemprop="datePublished">2016-08-15</time>
                     </div>
     </span>
 
         <section class="post-content">
-            <p>对于python，在第一次接触后感觉较其它语言，更加通俗易懂，更容易上手，对于小白来说，python可以更加容易的理解语言，它相比其它语言经常使用英文关键字。</p>
-<h3 id="python特点"><a href="#python特点" class="headerlink" title="python特点"></a>python特点</h3><p>python易于学习，代码读起来较为清晰，python拥有一个较为丰富的库，跨平台且兼容性较好。（因使用还不够深入，因此对于其了解还不是太深刻）</p>
-<h3 id="python的标识符"><a href="#python的标识符" class="headerlink" title="python的标识符"></a>python的标识符</h3><p>python的标识符有字母、数字、下划线组成<br>python所有标识符可以包括英文、数字和下划线，但不能以数字开头<br>python标识符区分大小写</p>
-<h3 id="python的行与缩进"><a href="#python的行与缩进" class="headerlink" title="python的行与缩进"></a>python的行与缩进</h3><p>学习python与其他语言最大区别是：python的代码块不使用大括号来控制类，函数以及其他逻辑判断。<br>缩进的空白数量是可变的，但所有代码块语句必须包含相同的缩进空白数量，这个是必须严格执行的。</p>
-<h3 id="python的标准数据类型"><a href="#python的标准数据类型" class="headerlink" title="python的标准数据类型"></a>python的标准数据类型</h3><p>在python中有五个标准的数据类型：Numbers(数字)、String(字符串)、List(列表)、Tuple（元组）、Dictionary（字典）</p>
-<h3 id="python语句学习"><a href="#python语句学习" class="headerlink" title="python语句学习"></a>python语句学习</h3><h4 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h4><p>Python条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块。<br>Python程序语言指定任何非0和非空（null）值为true，0 或者 null为false。<br>if 语句的判断条件可以用&gt;（大于）、&lt;(小于)、==（等于）、&gt;=（大于等于）、&lt;=（小于等于）来表示其关系。<br>当if有多个条件时可使用括号来区分判断的先后顺序，括号中的判断优先执行，此外 and 和 or 的优先级低于&gt;（大于）、&lt;（小于）等判断符号，即大于和小于在没有括号的情况下会比与或要优先判断。</p>
-<h4 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h4><p>python提供了for和while两种循环<br>while循环：执行语句可以是单个语句或语句块。判断条件可以是任何表达式，任何非零、或非空（null）的值均为true，当判断条件假false时，循环结束。此外while 语句时还有另外两个重要的命令 continue，break 来跳过循环，continue 用于跳过该次循环，break 则是用于退出循环<br>for循环：for循环可以遍历任何序列的项目，如一个列表或者一个字符串。</p>
-<p>###总结<br>初学python，只窥其一角，任重而道远，仍需努力。</p>
+            <h3 id="Scrapy"><a href="#Scrapy" class="headerlink" title="Scrapy"></a>Scrapy</h3><p>Scrapy是python开发的一个web爬虫抓取框架，可以用于数据挖掘，信息处理或者存储历史数据等一系列程序中。</p>
+<h3 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h3><p>安装python2.7，在系统环境变量path中添加python路径和python目录下Scripts目录。完成后在cmd中输入python，若能看到python版本信息则配置完成。</p>
+<h3 id="安装pip"><a href="#安装pip" class="headerlink" title="安装pip"></a>安装pip</h3><p>下载pip的安装包进行解压，执行python setup.py install进行安装。</p>
+<h3 id="安装lxml"><a href="#安装lxml" class="headerlink" title="安装lxml"></a>安装lxml</h3><p>lxml是一种使用python编写的库，可以灵活的处理xml，执行 pip install lxml进行安装。输入import lxml进行验证。</p>
+<h3 id="安装zope-interface"><a href="#安装zope-interface" class="headerlink" title="安装zope.interface"></a>安装zope.interface</h3><p>执行 pip install zope.interface。</p>
+<h3 id="安装Twisted"><a href="#安装Twisted" class="headerlink" title="安装Twisted"></a>安装Twisted</h3><p>Twisted是用python实行的基于事件驱动的网络引擎框架，执行 pip install Twisted。</p>
+<h3 id="安装pyOpenSSL"><a href="#安装pyOpenSSL" class="headerlink" title="安装pyOpenSSL"></a>安装pyOpenSSL</h3><p>执行 pip install pyOpenSSL。</p>
+<h3 id="安装win32py"><a href="#安装win32py" class="headerlink" title="安装win32py"></a>安装win32py</h3><p>下载win32py,点击安装。</p>
+<h3 id="安装Scrapy"><a href="#安装Scrapy" class="headerlink" title="安装Scrapy"></a>安装Scrapy</h3><p>执行pip install Scrapy,输入scrapy进行验证。</p>
+<h3 id="scrapy的简单爬取"><a href="#scrapy的简单爬取" class="headerlink" title="scrapy的简单爬取"></a>scrapy的简单爬取</h3><p>在scrapy items中定义所要抓取的数据；编写一个spider提取数据，定义一个url，使用xpath从页面的html源码中选择需要提取的数据，观察html页面源码创建我们需要的数据的xpath表达式，执行spider，获取数据。</p>
 
         </section>
         <hr/>
         <nav class="pagination" style="width:auto" role="pagination">
             
-            <a data-pjax class="newer-posts" href="/2016/07/31/python基础/">← Prev Post</a>
+            <a style="cursor:default" class="newer-posts" href="#">This is the First Post</a>
             
             <a class="share-button" data-original-title title>Share this Post</a>
             
-            <a data-pjax class="older-posts" href="/2016/07/24/博客之旅/">Next Post →</a>
+            <a data-pjax class="older-posts" href="/2016/08/07/正则表达式/">Next Post →</a>
             
         </nav>
         <br/>
